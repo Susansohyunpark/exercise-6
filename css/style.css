@@ -1,0 +1,44 @@
+body{
+margin: 0px;
+}
+
+
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+	 height: 100vh;
+
+}
+
+#rectangle{
+  height:707px;
+  width: 500px;
+  background-color: #c4b7a6;
+  position: fixed;
+}
+
+
+#one {
+
+	background-image: url("../img/josephmuller.png");
+   	height: 707px;
+   	width: 500px;
+    position: fixed;
+    z-index: 10;
+
+}
+
+#one:hover {
+	background-image: url('../img/josephmullerhover.png');
+  z-index: 10;
+
+
+}
+
+
+
+
+
